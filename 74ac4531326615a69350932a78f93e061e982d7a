@@ -1,0 +1,78 @@
+rules/access-control/README.md
+  s_5d832d2e239d90::t_fcec9940d86456 14
+rules/access-control/allowlist-response-fields.md
+  s_5d832d2e239d90::t_845eabca3b7a14 1-9,11-36
+  s_5d832d2e239d90::t_9a66f2a7b0e264 10
+rules/access-control/explicit-response-schemas.md
+  s_5d832d2e239d90::t_845eabca3b7a14 1-9,11-30
+  s_5d832d2e239d90::t_9a66f2a7b0e264 10
+rules/access-control/per-role-response-schemas.md
+  s_5d832d2e239d90::t_845eabca3b7a14 1-9,11-24
+  s_5d832d2e239d90::t_9a66f2a7b0e264 10
+rules/access-control/separate-response-models.md
+  s_5d832d2e239d90::t_845eabca3b7a14 1-9,11-25
+  s_5d832d2e239d90::t_9a66f2a7b0e264 10
+rules/injection/avoid-mark-safe.md
+  s_5d832d2e239d90::t_330ca700e7da42 11,17-20,25-28
+rules/injection/no-user-data-in-handlers.md
+  s_5d832d2e239d90::t_845eabca3b7a14 1-9,11-31
+  s_5d832d2e239d90::t_9a66f2a7b0e264 10
+rules/injection/quote-attribute-values.md
+  s_5d832d2e239d90::t_845eabca3b7a14 1-9,11-23
+  s_5d832d2e239d90::t_9a66f2a7b0e264 10
+rules/injection/sanitize-rendered-markdown.md
+  s_5d832d2e239d90::t_845eabca3b7a14 1-9,11-12,14-17,19-21,24
+  s_5d832d2e239d90::t_9a66f2a7b0e264 10
+  s_5d832d2e239d90::t_330ca700e7da42 13,18,22-23
+rules/injection/sanitize-rich-html.md
+  s_5d832d2e239d90::t_330ca700e7da42 11,14-18,21-26
+rules/injection/tojson-in-script.md
+  s_5d832d2e239d90::t_845eabca3b7a14 1-9,11-40
+  s_5d832d2e239d90::t_9a66f2a7b0e264 10
+rules/insecure-design/no-active-content-uploads.md
+  s_5d832d2e239d90::t_845eabca3b7a14 1-9,11-26
+  s_5d832d2e239d90::t_9a66f2a7b0e264 10
+rules/native-code/README.md
+  s_5d832d2e239d90::t_4d9df410f3b1c9 1-10,12-14
+  s_5d832d2e239d90::t_9a66f2a7b0e264 11
+rules/native-code/bounds-check-native-copies.md
+  s_5d832d2e239d90::t_4d9df410f3b1c9 1-9,11-39
+  s_5d832d2e239d90::t_9a66f2a7b0e264 10
+rules/native-code/check-native-null-returns.md
+  s_5d832d2e239d90::t_4d9df410f3b1c9 1-9,11-28
+  s_5d832d2e239d90::t_9a66f2a7b0e264 10
+rules/native-code/ctypes-argtypes-restype.md
+  s_5d832d2e239d90::t_4d9df410f3b1c9 1-9,11-27
+  s_5d832d2e239d90::t_9a66f2a7b0e264 10
+rules/native-code/cython-keep-boundscheck.md
+  s_5d832d2e239d90::t_4d9df410f3b1c9 1-9,11-16,23-24,28,30-31
+  s_5d832d2e239d90::t_9a66f2a7b0e264 10
+  s_5d832d2e239d90::t_7e446de7ca7733 17-22,25-27,29
+rules/native-code/keep-native-references-alive.md
+  s_5d832d2e239d90::t_4d9df410f3b1c9 1-9,11-28
+  s_5d832d2e239d90::t_9a66f2a7b0e264 10
+rules/native-code/no-as-strided.md
+  s_5d832d2e239d90::t_4d9df410f3b1c9 1-9,11-23
+  s_5d832d2e239d90::t_9a66f2a7b0e264 10
+rules/native-code/prefer-maintained-bindings.md
+  s_5d832d2e239d90::t_4d9df410f3b1c9 1-9,11-26
+  s_5d832d2e239d90::t_9a66f2a7b0e264 10
+rules/supply-chain/scan-dependencies.md
+  s_5d832d2e239d90::t_4d9df410f3b1c9 1-9,11-23
+  s_5d832d2e239d90::t_9a66f2a7b0e264 10
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "straion_version": "0.1.25",
+  "base_commit_sha": "74ac4531326615a69350932a78f93e061e982d7a",
+  "prompts": {},
+  "sessions": {
+    "s_5d832d2e239d90": {
+      "agent_id": {
+        "tool": "claude-code",
+        "id": "0905f11b-6a9e-47e4-9827-ca91c175be09",
+        "model": "unknown"
+      }
+    }
+  }
+}
