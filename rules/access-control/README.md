@@ -11,4 +11,4 @@ provenance:
   updatedBy: <straion>
 ---
 
-OWASP A01:2025 for Python services: authentication and authorization on every endpoint, IDOR prevention, tenant scoping, CSRF, CORS, path traversal, archive extraction, temp files, open redirects, SSRF, session/token lifetime and access-control tests.
+OWASP A01:2025 for Python services: authentication and authorization on every endpoint, IDOR prevention, tenant scoping, CSRF, CORS, path traversal, archive extraction, temp files, open redirects, SSRF, session/token lifetime, response data exposure and access-control tests.

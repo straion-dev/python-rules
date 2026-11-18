@@ -8,7 +8,7 @@ provenance:
   updatedBy: <straion>
 ---
 
-SHOULD NOT apply `|safe`, `Markup()` or `mark_safe()` to anything user-influenced.
+MUST NOT apply `|safe`, `Markup()` or `mark_safe()` to user-influenced content anywhere except inside the project's single sanitizing helper (`render_user_html`).
 
 ## Examples
 
@@ -16,6 +16,14 @@ SHOULD NOT apply `|safe`, `Markup()` or `mark_safe()` to anything user-influence
 mark_safe(f"<b>{comment.author}</b>")
 ```
 
+```html kind=violating
+{{ post.body_html|safe }}
+```
+
 ```python kind=compliant
 format_html("<b>{}</b>", comment.author)
+```
+
+```python kind=compliant
+return render_template("post.html", body=render_user_html(post.body))
 ```
